@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.wdy.classifier"
+    android:sharedUserId="@string/shareUserId" >
+
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/classifier_launcher_ic"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".ClassifierMainActivity"
+            android:exported="true"
+            android:label="@string/main_activity_name"
+            android:launchMode="singleTask" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".RiskBayesActivity"
+            android:label="@string/title_activity_risk_bayes" />
+        <activity
+            android:name=".RiskRateAcitivity"
+            android:label="@string/title_activity_risk_rate_acitivity" />
+
+        <service
+            android:name="com.example.wdy.predictservice.PersonaePredictService"
+            android:enabled="true"
+            android:exported="true" />
+
+        <receiver
+            android:name="com.example.wdy.predictservice.OnBootReceiver"
+            android:enabled="true"
+            android:exported="true" />
+
+        <activity
+            android:name=".ProfilePredictActivity"
+            android:label="@string/title_activity_profile_predict" >
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pap_main_background">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="@android:color/holo_green_dark"
+            android:text="@string/pps_switch"
+            android:gravity="center"
+            android:layout_gravity="left"
+            android:textSize="20dp" />
+
+        <com.android.util.MySwitch
+            android:id="@+id/pps_switch"
+            style="@style/mySwitchStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="2dp"
+            android:layout_marginRight="4dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="130dp"
+            android:gravity="center"
+            android:textOff="@string/pap_switch_off"
+            android:textOn="@string/pap_switch_on"
+            android:checked="false"
+            android:layout_weight="0.06" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="@android:color/holo_green_dark"
+            android:text="@string/pss_switch"
+            android:gravity="center"
+            android:layout_gravity="left"
+            android:textSize="20dp" />
+
+        <com.android.util.MySwitch
+            android:id="@+id/pss_switch"
+            style="@style/mySwitchStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="2dp"
+            android:layout_marginRight="4dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="110dp"
+            android:gravity="center"
+            android:textOff="@string/pap_switch_off"
+            android:textOn="@string/pap_switch_on"
+            android:checked="true"
+            android:layout_weight="0.06" />
+
+    </LinearLayout>
+
+</LinearLayout>

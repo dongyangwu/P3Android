@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="shareUserId">com.android.privacyawarepersonalize</string>
+    <string name="action_settings">Settings</string>
+    <string name="app_name">PAPSetting</string>
+    <string name="pap_switch_off">关闭</string>
+    <string name="pap_switch_on">开启</string>
+    <string name="pps_switch">隐私保护</string>
+    <string name="pss_switch">个性化支持</string>
+
+    <drawable name="red_drawable">#CCAA1883</drawable>
+    <drawable name="green_drawable">#CC123Bff</drawable>
+</resources>

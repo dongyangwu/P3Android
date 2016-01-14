@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="shareUserId">com.android.privacyawarepersonalize</string>
+    <string name="app_name">Classifier</string>
+    <string name="main_activity_name">Classifiers</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_risk_bayes">Rank Risk</string>
+    <string name="classifier_risk_bayes_list_dayuhao"> ></string>
+    <string name="title_activity_progress_dialog">progressDialog</string>
+    <string name="title_activity_risk_rate_acitivity">RiskRateAcitivity</string>
+    <string name="title_activity_profile_predict">ProfilePredict</string>
+
+</resources>
