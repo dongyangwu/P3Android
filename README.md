@@ -18,11 +18,11 @@ Though using personae help to limit information leaks, those legacy applications
 
 Guide for developers which want to use P3Android services and APIs:
 ---------------------------
-1, get an instance of Personalization Support Service Manager. e.g.
-`PersonalizationSupportManager psm = (PersonalizationSupportManager) getSystemService(PSM_SERVICE);`
+1, get an instance of Personalization Support Service Manager. e.g.<br>
+`PersonalizationSupportManager psm = (PersonalizationSupportManager) getSystemService(PSM_SERVICE);`<br>
 
-2, call the methods which PSS provides. e.g. to get the favorite topic of the user:
-`String persona = psm.getTopPersonae();`
+2, call the methods which PSS provides. e.g. to get the favorite topic of the user:<br>
+`String persona = psm.getTopPersonae();`<br>
 
 3, then provide specific personalizaiton function of your own for users.
 
